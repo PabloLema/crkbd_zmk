@@ -120,7 +120,7 @@
                 lower_layer {
                         bindings = <
    &trans   &kp N1         &kp N2         &kp N3         &kp N4           &kp N5               &kp N6         &kp N7         &kp N8       &kp N9         &kp N0        &trans
-   &trans   &trans         &trans         &trans         &bt BT_SEL 0     &bt BT_SEL 1         &kp BSPC         &kp LEFT       &kp UP       &kp DOWN       &kp RIGHT     &trans
+   &trans   &trans         &trans         &trans         &bt BT_SEL 0     &bt BT_SEL 1         &trans         &kp LEFT       &kp UP       &kp DOWN       &kp RIGHT     &trans
    &trans   &kp C_VOL_DN   &kp C_VOL_UP   &kp C_PREV     &kp C_NEXT       &kp C_PP             &kp CLCK       &kp LA(LEFT)   &kp LG(LEFT) &kp LG(RIGHT)  &kp LA(RIGHT) &trans
                           	              &trans         &trans           &trans               &kp TAB        &mo 3          &trans
                         >;
@@ -129,7 +129,7 @@
                 raise_layer {
                         bindings = <
    &trans   &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                    &kp CARET   &kp AMPS   &kp KP_MULTIPLY  &td6        &td7        &trans
-   &trans   &trans    &td10   &td11     &td12     &kp PG_UP                    &td4        &td8       &td9             &trans      &trans      &bt BT_CLR
+   &trans   &trans    &td10   &td11     &td12     &kp PG_UP                    &td4        &td8       &td9             &trans      &kp BSPC    &bt BT_CLR
    &trans   &trans    &trans  &kp F5    &kp F12   &kp PG_DN                    &trans      &kp CARET  &kp DLLR         &trans      &trans      &trans
                     	        &trans    &trans    &trans                       &trans      &trans     &trans
                         >;
