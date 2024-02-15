@@ -6,6 +6,7 @@
 
 #include <dt-bindings/zmk/keys.h>
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 
 / {
 
@@ -37,7 +38,7 @@
    &trans   &kp N1   &kp N2         &kp N3         &kp N4       &kp N5              &kp N6     &kp N7     &kp N8     &kp N9     &kp N0      &trans
    &trans   &trans   &trans         &trans         &trans       &kp C_PP            &kp CLCK   &kp LEFT   &kp UP     &kp DOWN   &kp RIGHT   &trans
    &trans   &trans   &kp C_VOL_DN   &kp C_VOL_UP   &kp C_PREV   &kp C_NEXT          &trans     &trans     &kp HOME   &kp END    &trans      &trans
-                          	        &trans         &trans       &trans              &kp TAB    &mo 3      &trans
+                          	        &trans         &trans       &trans              &kp TAB    &trans     &trans
                         >;
                 };
 
